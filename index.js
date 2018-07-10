@@ -1,2 +1,5 @@
 // Add your functions and code here
-destructivelyAppendKitten.push ();
+function destructivelyAppendKitten (array) {
+  array.unshift();
+  return array
+}
